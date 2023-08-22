@@ -27,6 +27,8 @@ stores payments made by customers based on their accounts.
 
 You can find the code about creating the database and the 8 tables in the [Database and tables](https://github.com/VasilisPappas/SQL.Cars_database/blob/main/Database%20and%20tables) file.
 
+* Reference: The specific code was gived by [MySQL Sample Database](https://www.mysqltutorial.org/mysql-sample-database.aspx), while  through the [Database and tables](https://github.com/VasilisPappas/SQL.Cars_database/blob/main/Database%20and%20tables) I have made some order-changes in the creating of the tables as there are constrains due to references in foreign keys.
+
 
 
 
