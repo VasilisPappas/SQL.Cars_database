@@ -25,9 +25,9 @@ stores sales order line items for each sales order.
 ## Payments: 
 stores payments made by customers based on their accounts.
 
-<p>You can find the code about creating the database and the 8 tables in the  <a href -"https://github.com/VasilisPappas/SQL.Cars_database/blob/main/Database%20and%20tables"> Database</a> file.</p>
+You can find the code about creating the database and the 8 tables in the [Database and tables](https://github.com/VasilisPappas/SQL.Cars_database/blob/main/Database%20and%20tables) file.
 
-[Google](https://www.google.com)
+
 
 
 
