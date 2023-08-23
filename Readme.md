@@ -1,5 +1,4 @@
-We will utilize the 'cars_database' as a sample MySQL database. This database encompasses standard business data including customers, products, sales orders, sales order line items, and more. 
-The schema of the MySQL sample database comprises the following tables:
+We'll work with the 'cars_database,' a MySQL sample database containing standard business data like customers, products, sales orders and other relevant information. The schema consists of the following tables:
 
 ## ProductLines: 
 stores a list of product line categories.
