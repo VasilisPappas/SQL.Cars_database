@@ -44,6 +44,7 @@ This can enhance the performance of queries that involve filtering or sorting by
 
 
 /* CONSTRAINT `products_ibfk_1`:
+
 The name 'products_ibfk_1' doesn't have any inherent meaning related to the structure of the table.
 It's just a name in order to distinguish this foreign key constraint from others that might exist in the database.*/
 
