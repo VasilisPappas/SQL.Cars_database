@@ -27,12 +27,25 @@ insert  into `productlines`(`productLine`,`textDescription`,`htmlDescription`,`i
 
 ('Vintage Cars','Our Vintage Car models realistically portray automobiles produced from the early 1900s through the 1940s. Materials used include Bakelite, diecast, plastic and wood. Most of the replicas are in the 1:18 and 1:24 scale sizes, which provide the optimum in detail and accuracy. Prices range from $30.00 up to $180.00 for some special limited edition replicas. All models include a certificate of authenticity from their manufacturers and come fully assembled and ready for display in the home or office.',NULL,NULL);
 
+/*Why using: ''ENGINE=InnoDB DEFAULT CHARSET=latin1''.
+
+The ENGINE=InnoDB and DEFAULT CHARSET=latin1 clauses at the end of your table creation code are used to 
+define the storage engine and character set for the table.
+The choice of storage engine and character set can have implications for performance, 
+data integrity, and compatibility with different languages and character encodings.*/
 
 
+/* KEY productLine (productLine):
+
+The KEY statement is used to create an index on a specific column or set of columns in the table. 
+An index improves the speed of data retrieval operations by providing a quick way to look up rows based on the indexed columns. 
+In this case, an index named productLine is being created on the productLine column of the products table. 
+This can enhance the performance of queries that involve filtering or sorting by the productLine column.*/
 
 
-
-
+/* CONSTRAINT `products_ibfk_1`:
+The name 'products_ibfk_1' doesn't have any inherent meaning related to the structure of the table.
+It's just a name in order to distinguish this foreign key constraint from others that might exist in the database.*/
 
 CREATE TABLE `products` (
   `productCode` varchar(15) NOT NULL,
