@@ -1,7 +1,10 @@
-Let's discover this database.
-# Order structure of tables: 
-# productlines -> products -> offices -> employees -> customers -> orders -> orderdetails -> payments
+Let's discover this database. Below is the connectivity structure of tables:
 
+# productlines -> products 
+# offices -> employees -> customers -> orders 
+# orderdetails -> orders
+# orderdetails -> products
+# payments -> customers
 
 
 ## 1. Have a look of each one of the 8 tables. Well, more specifically get only the info about 'orderdetails' and 'payments':
