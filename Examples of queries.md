@@ -18,4 +18,9 @@ from orderdetails;</pre>
 <pre>select * 
 from payments;</pre>
 
-## 2. 
+## 2. Get the name of each product, along with the price and its category as well as the general text description:
+<pre>select p1.productName,p1.buyPrice, p1.productLine, p2.textDescription
+from products p1
+join productlines p2 on p1.productLine=p2.productLine;</pre>
+
+## 3. I want each customer to receive the items they purchased, determine the total amount they spent, and identify the employee who assisted them:
