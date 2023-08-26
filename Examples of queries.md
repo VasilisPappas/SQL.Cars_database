@@ -23,4 +23,17 @@ from payments;</pre>
 from products p1
 join productlines p2 on p1.productLine=p2.productLine;</pre>
 
-## 3. I want each customer to receive the items they purchased, determine the total amount they spent, and identify the employee who assisted them:
+## 3. Get the company's number, company's name (customer name), date of order, status and number of order. We want ascending order by company's number whereas descending by number of order:
+
+<pre>select o.customerNumber, c.customerName, o.orderDate, o.status, o.orderNumber 
+from orders o
+join customers c on o.customerNumber=c.customerNumber
+order by customerNumber, orderNumber desc;</pre>
+> As you can see, we are joining 2 tables. We could use the 'using' syntax since there are identical column names for the keys. However, I prefer the approach above as it clearly displays the connections. Nevertheless, using the 'using' syntax would make the query simpler:
+
+
+<pre>select o.customerNumber, c.customerName, o.orderDate, o.status, o.orderNumber 
+from orders o
+join customers c using (customerNumber)
+order by customerNumber, orderNumber desc;</pre>
+## 4. I want each customer to receive the items they purchased, determine the total amount they spent, and identify the employee who assisted them:
